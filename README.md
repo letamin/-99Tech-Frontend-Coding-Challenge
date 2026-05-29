@@ -5,7 +5,7 @@ This repository contains my solutions for the 99Tech coding challenge. The proje
 ---
 
 ## 📂 Repository Structure
-
+```text
 .
 └── src/
     ├── problem1/
@@ -18,7 +18,7 @@ This repository contains my solutions for the 99Tech coding challenge. The proje
     └── problem3/
         ├── explain.md              # Detailed breakdown of bugs and inefficiencies
         └── refactored-version.tsx  # Clean, optimized, and type-safe React code
-
+```
 
 🚀 Getting Started & Execution
 
@@ -39,8 +39,7 @@ How to run:
 cd src/problem2
 
 ## 2. Install the dependencies:
-npm install
-# or yarn install / pnpm install
+npm install (or yarn install / pnpm install)
 
 ## 3. Start the local development server:
 npm run dev
