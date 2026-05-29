@@ -5,8 +5,8 @@ This repository contains my solutions for the 99Tech coding challenge. The proje
 ---
 
 ## 📂 Repository Structure
+
 ```text
-.
 └── src/
     ├── problem1/
     │   └── solution.js             # Three distinct ways to sum to n
@@ -17,42 +17,48 @@ This repository contains my solutions for the 99Tech coding challenge. The proje
     │   └── ...                     # Vite/React boilerplate configurations
     └── problem3/
         ├── explain.md              # Detailed breakdown of bugs and inefficiencies
-        └── refactored-version.tsx  # Clean, optimized, and type-safe React code
+        └── refactored-version.tsx   # Clean, optimized, and type-safe React code
 ```
 
-🚀 Getting Started & Execution
+---
 
-* **Problem 1: Three ways to sum to n**
+# 🚀 Getting Started & Execution
+
+## 📐 Problem 1: Three ways to sum to n
 This contains three JavaScript functions implementing different computational approaches to solve the summation problem.
 
-How to run/test:
-You can run this file directly using Node.js to verify the logic.
+#### How to run/test:
+You can run this file directly using Node.js to verify the logic:
+```bash
+node src/problem1/solution.js
+```
 
 ---
 
-* **Problem 2: Fancy Form**
+## 🎨 Problem 2: Fancy Form
 A fully interactive currency switcher/converter application built using React and TypeScript (bundled with Vite). It features real-time exchange rate calculations, token selection, and form validation.
 
-How to run:
-
-## 1. Navigate to the project directory:
-cd src/problem2
-
-## 2. Install the dependencies:
-npm install (or yarn install / pnpm install)
-
-## 3. Start the local development server:
-npm run dev
-
-## 4. Open the local address (usually http://localhost:5173) in your browser.
+#### How to run:
+1. **Navigate to the project directory:**
+   ```bash
+   cd src/problem2
+   ```
+2. **Install the dependencies:**
+   ```bash
+   npm install
+   # or yarn install / pnpm install
+   ```
+3. **Start the local development server:**
+   ```bash
+   npm run dev
+   ```
+4. **Open the local address:** Open `http://localhost:5173` in your browser.
 
 ---
 
-* **Problem 3: Messy React**
+## 🛠️ Problem 3: Messy React
 An analysis and refactoring exercise of a production-level React component handling cryptocurrency wallet balances.
 
-Reviewing the code:
-
-Read src/problem3/explain.md for a comprehensive code review detailing identified anti-patterns, TypeScript errors, and computational inefficiencies in the original code.
-
-Open src/problem3/refactored-version.tsx to view the optimized, type-safe, and clean implementation of the component.
+#### Reviewing the code:
+* Read `src/problem3/explain.md` for a comprehensive code review detailing identified anti-patterns, TypeScript errors, and computational inefficiencies in the original code.
+* Open `src/problem3/refactored-version.tsx` to view the optimized, type-safe, and clean implementation of the component.
